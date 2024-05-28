@@ -8,3 +8,10 @@ class orang {
             cout <<"orang dibuat dengan umur" << umur <<"\n" << endl;
         }
 };
+
+class pekerja : public orang{
+    public:
+        orang(int pUmur) : umur(pUmur){
+            cout <<"pekerja dibuat\n" << endl;
+        }
+};
